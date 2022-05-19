@@ -45,7 +45,7 @@ const Excerpt = styled.p`
 const User = props => (
   <div>
     <Helmet>
-      <script async defer src="https://storage.googleapis.com/lucky-orange-staging-public/core/lo.js?site-id=12ac14db"></script>
+    <script async defer src="https://storage.googleapis.com/lucky-orange-staging-public/core/lo.js?site-id=12ac14db"></script>
     </Helmet>
     <UserWrapper>
     <Avatar src={props.avatar} alt="" />
